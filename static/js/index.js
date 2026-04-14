@@ -41,4 +41,39 @@ $(document).ready(function() {
         });
     });
 
+    // Sync initial video group on page load (silent, no visual flicker)
+    var $initialGroup = $('.vr-group-active');
+    var videos = $initialGroup.find('video').get();
+    
+    if (videos.length > 0) {
+        // Wait for all videos to have loaded enough data
+        var loadedCount = 0;
+        var totalVideos = videos.length;
+        
+        videos.forEach(function(video) {
+            var checkLoaded = function() {
+                loadedCount++;
+                if (loadedCount === totalVideos) {
+                    // All videos ready, sync them silently
+                    videos.forEach(function(v) {
+                        v.pause();
+                        v.currentTime = 0;
+                    });
+                    // Start all videos at the same time
+                    videos.forEach(function(v) {
+                        v.play();
+                    });
+                }
+            };
+            
+            if (video.readyState >= 2) {
+                // Video already loaded
+                checkLoaded();
+            } else {
+                // Wait for video to load
+                video.addEventListener('loadeddata', checkLoaded, { once: true });
+            }
+        });
+    }
+
 })
