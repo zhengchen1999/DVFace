@@ -14,11 +14,11 @@
 
 #### 🔥🔥🔥 News
 
-- **2026-04-14:** This repo is released.
+- **2026-04-15:** This repo is released.
 
 ---
 
-> **Abstract:** Video face restoration aims to recover high-quality face videos from severely degraded inputs while preserving realistic facial details, stable identity, and temporal coherence. Recent diffusion-based methods have brought strong generative priors to restoration and enabled more realistic detail synthesis. However, existing approaches for face videos still rely heavily on generic diffusion priors and multi-step sampling, which limits both facial adaptation and inference efficiency. These limitations motivate the use of one-step diffusion for video face restoration, but achieving faithful facial recovery together with temporally stable outputs remains challenging. In this paper, we propose **DVFace**, a one-step diffusion framework for real-world video face restoration. Specifically, we introduce a spatio-temporal dual-codebook design to extract complementary spatial and temporal facial priors from degraded videos. We further propose an asymmetric spatio-temporal fusion module to inject these priors into the diffusion backbone according to their distinct roles. Extensive experiments on synthetic and real-world benchmarks demonstrate that DVFace achieves superior restoration quality, temporal consistency, and identity preservation compared with recent methods. Code will be released.
+> **Abstract:** Video face restoration aims to recover high-quality face videos from severely degraded inputs while preserving realistic facial details, stable identity, and temporal coherence. Recent diffusion-based methods have brought strong generative priors to restoration and enabled more realistic detail synthesis. However, existing approaches for face videos still rely heavily on generic diffusion priors and multi-step sampling, which limits both facial adaptation and inference efficiency. These limitations motivate the use of one-step diffusion for video face restoration, but achieving faithful facial recovery together with temporally stable outputs remains challenging. In this paper, we propose **DVFace**, a one-step diffusion framework for real-world video face restoration. Specifically, we introduce a spatio-temporal dual-codebook design to extract complementary spatial and temporal facial priors from degraded videos. We further propose an asymmetric spatio-temporal fusion module to inject these priors into the diffusion backbone according to their distinct roles. Extensive experiments on synthetic and real-world benchmarks demonstrate that DVFace achieves superior restoration quality, temporal consistency, and identity preservation compared with recent methods.
 
 ![](figs/Example.png)
 
@@ -46,17 +46,21 @@
 - Results in Tab. 1 and Fig. 4 of the main paper(synthetic dataset)
 
 <p align="center">
-  <img width="900" src="figs/synthetic_dataset.png">
+  <img width="900" src="figs/qualitative_results_1.png">
+  <img width="900" src="figs/quantitative_results_1.png">
 </p>
+
 
 
 - Results in Tab. 2 and Fig. 5 of the main paper(real-world dataset)
 
 <p align="center">
-  <img width="900" src="figs/real_world_dataset.png">
+  <img width="900" src="figs/qualitative_results_2.png">
+  <img width="900" src="figs/quantitative_results_2.png">
 </p>
 <details>
 <summary>More Qualitative Results</summary>
+
 
 - More results in Fig. 2 of the supplementary material
 
