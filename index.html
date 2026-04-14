@@ -235,25 +235,25 @@
 
           <!-- Thumbnail selector row -->
           <div class="vr-thumb-row">
-            <div class="vr-thumb active" data-group="0" title="VFHQ-Test 1">
-              <video muted preload="metadata"
-                src="static/videos/compare/VFHQ-Test_1/ours.mp4#t=0.1"></video>
-            </div>
-            <div class="vr-thumb" data-group="1" title="VFHQ-Test 2">
-              <video muted preload="metadata"
-                src="static/videos/compare/VFHQ-Test_2/ours.mp4#t=0.1"></video>
-            </div>
-            <div class="vr-thumb" data-group="2" title="HDTF 1">
+            <div class="vr-thumb active" data-group="0" title="HDTF 1">
               <video muted preload="metadata"
                 src="static/videos/compare/HDTF_1/ours.mp4#t=0.1"></video>
             </div>
-            <div class="vr-thumb" data-group="3" title="HDTF 2">
+            <div class="vr-thumb" data-group="1" title="HDTF 2">
               <video muted preload="metadata"
                 src="static/videos/compare/HDTF_2/ours.mp4#t=0.1"></video>
             </div>
-            <div class="vr-thumb" data-group="4" title="HDTF 3">
+            <div class="vr-thumb" data-group="2" title="HDTF 3">
               <video muted preload="metadata"
                 src="static/videos/compare/HDTF_3/ours.mp4#t=0.1"></video>
+            </div>
+            <div class="vr-thumb" data-group="3" title="VFHQ-Test 1">
+              <video muted preload="metadata"
+                src="static/videos/compare/VFHQ-Test_1/ours.mp4#t=0.1"></video>
+            </div>
+            <div class="vr-thumb" data-group="4" title="VFHQ-Test 2">
+              <video muted preload="metadata"
+                src="static/videos/compare/VFHQ-Test_2/ours.mp4#t=0.1"></video>
             </div>
             <!-- Divider between synthetic and real-world datasets -->
             <div class="vr-thumb-divider"></div>
@@ -271,80 +271,8 @@
             </div>
           </div>
 
-          <!-- Video group 0: VFHQ-Test_1 (has GT) -->
+          <!-- Video group 0: HDTF_1 (has GT) -->
           <div class="vr-group vr-group-active" data-group="0">
-            <div class="vr-grid vr-grid-6">
-              <div class="vr-cell">
-                <video muted autoplay loop playsinline preload="metadata"
-                  src="static/videos/compare/VFHQ-Test_1/GT.mp4"></video>
-                <p class="vr-label">HQ</p>
-              </div>
-              <div class="vr-cell">
-                <video muted autoplay loop playsinline preload="metadata"
-                  src="static/videos/compare/VFHQ-Test_1/LQ.mp4"></video>
-                <p class="vr-label">LQ</p>
-              </div>
-              <div class="vr-cell">
-                <video muted autoplay loop playsinline preload="metadata"
-                  src="static/videos/compare/VFHQ-Test_1/PGTFormer.mp4"></video>
-                <p class="vr-label">PGTFormer</p>
-              </div>
-              <div class="vr-cell">
-                <video muted autoplay loop playsinline preload="metadata"
-                  src="static/videos/compare/VFHQ-Test_1/DicFace.mp4"></video>
-                <p class="vr-label">DicFace</p>
-              </div>
-              <div class="vr-cell">
-                <video muted autoplay loop playsinline preload="metadata"
-                  src="static/videos/compare/VFHQ-Test_1/SVFR.mp4"></video>
-                <p class="vr-label">SVFR</p>
-              </div>
-              <div class="vr-cell">
-                <video muted autoplay loop playsinline preload="metadata"
-                  src="static/videos/compare/VFHQ-Test_1/ours.mp4"></video>
-                <p class="vr-label vr-label-ours">DVFace (ours)</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Video group 1: VFHQ-Test_2 (has GT) -->
-          <div class="vr-group" data-group="1">
-            <div class="vr-grid vr-grid-6">
-              <div class="vr-cell">
-                <video muted autoplay loop playsinline preload="metadata"
-                  src="static/videos/compare/VFHQ-Test_2/GT.mp4"></video>
-                <p class="vr-label">HQ</p>
-              </div>
-              <div class="vr-cell">
-                <video muted autoplay loop playsinline preload="metadata"
-                  src="static/videos/compare/VFHQ-Test_2/LQ.mp4"></video>
-                <p class="vr-label">LQ</p>
-              </div>
-              <div class="vr-cell">
-                <video muted autoplay loop playsinline preload="metadata"
-                  src="static/videos/compare/VFHQ-Test_2/PGTFormer.mp4"></video>
-                <p class="vr-label">PGTFormer</p>
-              </div>
-              <div class="vr-cell">
-                <video muted autoplay loop playsinline preload="metadata"
-                  src="static/videos/compare/VFHQ-Test_2/DicFace.mp4"></video>
-                <p class="vr-label">DicFace</p>
-              </div>
-              <div class="vr-cell">
-                <video muted autoplay loop playsinline preload="metadata"
-                  src="static/videos/compare/VFHQ-Test_2/SVFR.mp4"></video>
-                <p class="vr-label">SVFR</p>
-              </div>
-              <div class="vr-cell">
-                <video muted autoplay loop playsinline preload="metadata"
-                  src="static/videos/compare/VFHQ-Test_2/ours.mp4"></video>
-                <p class="vr-label vr-label-ours">DVFace (ours)</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Video group 2: HDTF_1 (has GT) -->
-          <div class="vr-group" data-group="2">
             <div class="vr-grid vr-grid-6">
               <div class="vr-cell">
                 <video muted autoplay loop playsinline preload="metadata"
@@ -379,8 +307,8 @@
             </div>
           </div>
 
-          <!-- Video group 3: HDTF_2 (has GT) -->
-          <div class="vr-group" data-group="3">
+          <!-- Video group 1: HDTF_2 (has GT) -->
+          <div class="vr-group" data-group="1">
             <div class="vr-grid vr-grid-6">
               <div class="vr-cell">
                 <video muted autoplay loop playsinline preload="metadata"
@@ -415,8 +343,8 @@
             </div>
           </div>
 
-          <!-- Video group 4: HDTF_3 (has GT) -->
-          <div class="vr-group" data-group="4">
+          <!-- Video group 2: HDTF_3 (has GT) -->
+          <div class="vr-group" data-group="2">
             <div class="vr-grid vr-grid-6">
               <div class="vr-cell">
                 <video muted autoplay loop playsinline preload="metadata"
@@ -446,6 +374,78 @@
               <div class="vr-cell">
                 <video muted autoplay loop playsinline preload="metadata"
                   src="static/videos/compare/HDTF_3/ours.mp4"></video>
+                <p class="vr-label vr-label-ours">DVFace (ours)</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video group 3: VFHQ-Test_1 (has GT) -->
+          <div class="vr-group" data-group="3">
+            <div class="vr-grid vr-grid-6">
+              <div class="vr-cell">
+                <video muted autoplay loop playsinline preload="metadata"
+                  src="static/videos/compare/VFHQ-Test_1/GT.mp4"></video>
+                <p class="vr-label">HQ</p>
+              </div>
+              <div class="vr-cell">
+                <video muted autoplay loop playsinline preload="metadata"
+                  src="static/videos/compare/VFHQ-Test_1/LQ.mp4"></video>
+                <p class="vr-label">LQ</p>
+              </div>
+              <div class="vr-cell">
+                <video muted autoplay loop playsinline preload="metadata"
+                  src="static/videos/compare/VFHQ-Test_1/PGTFormer.mp4"></video>
+                <p class="vr-label">PGTFormer</p>
+              </div>
+              <div class="vr-cell">
+                <video muted autoplay loop playsinline preload="metadata"
+                  src="static/videos/compare/VFHQ-Test_1/DicFace.mp4"></video>
+                <p class="vr-label">DicFace</p>
+              </div>
+              <div class="vr-cell">
+                <video muted autoplay loop playsinline preload="metadata"
+                  src="static/videos/compare/VFHQ-Test_1/SVFR.mp4"></video>
+                <p class="vr-label">SVFR</p>
+              </div>
+              <div class="vr-cell">
+                <video muted autoplay loop playsinline preload="metadata"
+                  src="static/videos/compare/VFHQ-Test_1/ours.mp4"></video>
+                <p class="vr-label vr-label-ours">DVFace (ours)</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video group 4: VFHQ-Test_2 (has GT) -->
+          <div class="vr-group" data-group="4">
+            <div class="vr-grid vr-grid-6">
+              <div class="vr-cell">
+                <video muted autoplay loop playsinline preload="metadata"
+                  src="static/videos/compare/VFHQ-Test_2/GT.mp4"></video>
+                <p class="vr-label">HQ</p>
+              </div>
+              <div class="vr-cell">
+                <video muted autoplay loop playsinline preload="metadata"
+                  src="static/videos/compare/VFHQ-Test_2/LQ.mp4"></video>
+                <p class="vr-label">LQ</p>
+              </div>
+              <div class="vr-cell">
+                <video muted autoplay loop playsinline preload="metadata"
+                  src="static/videos/compare/VFHQ-Test_2/PGTFormer.mp4"></video>
+                <p class="vr-label">PGTFormer</p>
+              </div>
+              <div class="vr-cell">
+                <video muted autoplay loop playsinline preload="metadata"
+                  src="static/videos/compare/VFHQ-Test_2/DicFace.mp4"></video>
+                <p class="vr-label">DicFace</p>
+              </div>
+              <div class="vr-cell">
+                <video muted autoplay loop playsinline preload="metadata"
+                  src="static/videos/compare/VFHQ-Test_2/SVFR.mp4"></video>
+                <p class="vr-label">SVFR</p>
+              </div>
+              <div class="vr-cell">
+                <video muted autoplay loop playsinline preload="metadata"
+                  src="static/videos/compare/VFHQ-Test_2/ours.mp4"></video>
                 <p class="vr-label vr-label-ours">DVFace (ours)</p>
               </div>
             </div>
