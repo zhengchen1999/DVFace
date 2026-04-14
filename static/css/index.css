@@ -201,6 +201,17 @@ body {
   transform: scale(1.15);
 }
 
+/* Divider between synthetic and real-world datasets */
+.vr-thumb-divider {
+  width: 2px;
+  height: 70px;
+  background: #d0d0d0;
+  flex-shrink: 0;
+  margin: 0 6px;
+  align-self: center;
+  border-radius: 1px;
+}
+
 .vr-thumb video {
   width: 100%;
   height: 100%;
