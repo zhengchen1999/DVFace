@@ -1,6 +1,6 @@
 # DVFace: Spatio-Temporal Dual-Prior Diffusion for Video Face Restoration
 
-[Zheng Chen](https://zhengchen1999.github.io/), [Bowen Chai](https://github.com/bowenchai), [Rongjun Gao](https://github.com/rongjungao040803), [Mingtao Nie](https://github.com/lemondrops608), Xi Li, [Bingnan Duan](https://github.com/Bingnan), Jianping Fang, [Xiaohong Liu](https://jhc.sjtu.edu.cn/~xiaohongliu/), [Yulun Zhang](https://yulunzhang.com/),"DVFace: Spatio-Temporal Dual-Prior Diffusion for Video Face Restoration", arXiv, 2026
+[Zheng Chen](https://zhengchen1999.github.io/), [Bowen Chai](https://github.com/bowenchai), [Rongjun Gao](https://github.com/rongjungao040803), [Mingtao Nie](https://github.com/lemondrops608), [Xi Li](), [Bingnan Duan](https://github.com/Bingnan), [Jianping Fang](https://www.meituan.com/), [Xiaohong Liu](https://jhc.sjtu.edu.cn/~xiaohongliu/), [Yulun Zhang](https://yulunzhang.com/),"DVFace: Spatio-Temporal Dual-Prior Diffusion for Video Face Restoration", arXiv, 2026
 
 <div>
 <a href="https://github.com/zhengchen1999/DVFace/releases" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/downloads/zhengchen1999/DVFace/total?color=green&style=flat"></a>
@@ -62,10 +62,17 @@
 <summary>More Qualitative Results</summary>
 
 
-- More results in Fig. 2 of the supplementary material
+- More results in Fig. 2 of the supplementary material(synthetic dataset)
 
 <p align="center">
-  <img width="900" src="figs/supp.png">
+  <img width="900" src="figs/supp_1.png">
+</p>
+</details>
+
+- More results in Fig. 3 of the supplementary material(real-world dataset)
+
+<p align="center">
+  <img width="900" src="figs/supp_2.png">
 </p>
 </details>
 
@@ -74,12 +81,13 @@
 If you find the code helpful in your research or work, please cite our work.
 
 ```
-@article{chen2026binarydemoire,
-    title={BinaryDemoire: Moiré-Aware Binarization for Image Demoiréing},
-    author={Chen, Zheng and Yang, Zhi and Liu, Xiaoyang and Zhang, Weihang and Wang, Mengfan and Fu, Yifan and Kong, Linghe and Zhang, Yulun},
-    journal={arXiv preprint arXiv:2602.03176},
-    year={2026}
-}
+@article{chen2026dvface,
+              title = {DVFace: Spatio-Temporal Dual-Prior Diffusion for Video Face Restoration},
+              author = {Zheng Chen, Bowen Chai, Rongjun Gao, Mingtao Nie, Xi Li, Bingnan Duan, Jianping Fang, Xiaohong
+              Liu, Linghe Kong, Yulun Zhang},
+              journal = {},
+              year = {2026}
+              }
 ```
 
 
