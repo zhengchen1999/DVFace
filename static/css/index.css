@@ -178,26 +178,27 @@ body {
 }
 
 .vr-thumb {
-  width: 120px;
-  height: 120px;
-  border-radius: 14px;
+  width: 90px;
+  height: 90px;
+  border-radius: 12px;
   overflow: hidden;
   cursor: pointer;
-  border: 4px solid #c0c0c0;
-  transition: border-color 0.25s ease, outline-color 0.25s ease, box-shadow 0.25s ease, transform 0.2s ease;
+  border: 3px solid #c0c0c0;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
   background: #e8e8e8;
   flex-shrink: 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .vr-thumb:hover {
-  transform: translateY(-2px);
+  transform: translateY(-2px) scale(1.05);
   box-shadow: 0 4px 16px rgba(99, 102, 241, 0.25);
 }
 
 .vr-thumb.active {
   border-color: #6366f1;
-  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3), 0 6px 20px rgba(99, 102, 241, 0.3);
+  transform: scale(1.15);
 }
 
 .vr-thumb video {
@@ -227,6 +228,11 @@ body {
 
 .vr-grid-6 {
   grid-template-columns: repeat(3, 1fr);
+}
+
+/* 8-video grid: 4 columns x 2 rows */
+.vr-grid-8 {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 /* 5-video grid: row1 = 2 centered, row2 = 3 */
