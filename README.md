@@ -59,6 +59,7 @@
   <img width="900" src="figs/quantitative_results_2.png">
 </p>
 <details>
+
 <summary>More Qualitative Results</summary>
 
 
@@ -67,7 +68,6 @@
 <p align="center">
   <img width="900" src="figs/supp_1.png">
 </p>
-</details>
 
 - More results in Fig. 3 of the supplementary material(real-world dataset)
 
