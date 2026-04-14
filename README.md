@@ -62,18 +62,32 @@
 
 <summary>More Qualitative Results</summary>
 
+- More quantitative comparision with VSR methods in Tab. 1 of the supplementary material
+
+<p align="center">
+  <img width="900" src="figs/vsr_compare.png">
+</p>
+
+- Comparision of parameters and inference time with diffusion-based video restoration methods in Tab. 2 of the supplementary material
+
+<p align="center">
+  <img width="900" src="figs/efficiency.png">
+</p>
 
 - More results in Fig. 2 of the supplementary material(synthetic dataset)
 
 <p align="center">
-  <img width="900" src="figs/supp_1.png">
+  <img width="900" src="figs/synthetic_1.png">
+  <img width="900" src="figs/synthetic_2.png">
 </p>
 
 - More results in Fig. 3 of the supplementary material(real-world dataset)
 
 <p align="center">
-  <img width="900" src="figs/supp_2.png">
+  <img width="900" src="figs/realworld_1.png">
+  <img width="900" src="figs/realworld_2.png">
 </p>
+
 </details>
 
 ## <a name="citation(Wait to be updated)"></a>📎 Citation
