@@ -7,14 +7,13 @@
 <a href="https://github.com/zhengchen1999/DVFace" target='_blank' style="text-decoration: none;"><img src="https://visitor-badge.laobi.icu/badge?page_id=zhengchen1999/DVFace"></a>
 <a href="https://github.com/zhengchen1999/DVFace/stargazers" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/stars/zhengchen1999/DVFace?style=social"></a>
 </div>
-
 [[project](https://zhengchen1999.github.io/DVFace)] [[arXiv](wait to be updated)] [[supplementary material](https://github.com/zhengchen1999/DVFace/releases/download/v1/Supplementary_Material.pdf)] [dataset] [pretrained models]
 
 
 
 #### 🔥🔥🔥 News
 
-- **2026-04-15:** This repo is released.
+- **2026-04-16:** This repo is released.
 
 ---
 
@@ -59,7 +58,6 @@
   <img width="900" src="figs/quantitative_results_2.png">
 </p>
 <details>
-
 <summary>More Qualitative Results</summary>
 
 - More quantitative comparision with VSR methods in Tab. 1 of the supplementary material
@@ -94,14 +92,13 @@
 
 If you find the code helpful in your research or work, please cite our work.
 
-```
+```latex
 @article{chen2026dvface,
-              title = {DVFace: Spatio-Temporal Dual-Prior Diffusion for Video Face Restoration},
-              author = {Zheng Chen, Bowen Chai, Rongjun Gao, Mingtao Nie, Xi Li, Bingnan Duan, Jianping Fang, Xiaohong
-              Liu, Linghe Kong, Yulun Zhang},
-              journal = {},
-              year = {2026}
-              }
+	title = {DVFace: Spatio-Temporal Dual-Prior Diffusion for Video Face Restoration},
+	author = {Zheng Chen, Bowen Chai, Rongjun Gao, Mingtao Nie, Xi Li, Bingnan Duan, Jianping Fang, Xiaohong Liu, Linghe Kong, Yulun Zhang},
+	journal = {},
+	year = {2026}
+}
 ```
 
 
