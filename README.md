@@ -7,6 +7,9 @@
 <a href="https://github.com/zhengchen1999/DVFace" target='_blank' style="text-decoration: none;"><img src="https://visitor-badge.laobi.icu/badge?page_id=zhengchen1999/DVFace"></a>
 <a href="https://github.com/zhengchen1999/DVFace/stargazers" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/stars/zhengchen1999/DVFace?style=social"></a>
 </div>
+
+
+
 [[project](https://zhengchen1999.github.io/DVFace)] [[arXiv](wait to be updated)] [[supplementary material](https://github.com/zhengchen1999/DVFace/releases/download/v1/Supplementary_Material.pdf)] [dataset] [pretrained models]
 
 
@@ -35,7 +38,12 @@
 
 ## 🔖 TODO
 
-- [ ] Release code and pretrained models
+- [ ] Release testing code.
+- [ ] Release training code.
+- [ ] Release code and pretrained models.
+- [ ] Release visual results.
+- [ ] Provide WebUI.
+- [ ] Provide HuggingFace demo.
 
 ## <a name="results"></a>🔎 Results
 
