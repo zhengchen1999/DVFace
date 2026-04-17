@@ -9,14 +9,13 @@
 </div>
 
 
-
-[[project](https://zhengchen1999.github.io/DVFace)] [[arXiv](wait to be updated)] [[supplementary material](https://github.com/zhengchen1999/DVFace/releases/download/v1/Supplementary_Material.pdf)] [dataset] [pretrained models]
+[[project](https://zhengchen1999.github.io/DVFace)] [[arXiv](https://arxiv.org/abs/2604.14560)] [[supplementary material](https://github.com/zhengchen1999/DVFace/releases/download/v1/Supplementary_Material.pdf)] [dataset] [pretrained models]
 
 
 
 #### 🔥🔥🔥 News
 
-- **2026-04-16:** This repo is released.
+- **2026-04-17:** This repo is released.
 
 ---
 
@@ -104,7 +103,7 @@ If you find the code helpful in your research or work, please cite our work.
 @article{chen2026dvface,
 	title = {DVFace: Spatio-Temporal Dual-Prior Diffusion for Video Face Restoration},
 	author = {Zheng Chen, Bowen Chai, Rongjun Gao, Mingtao Nie, Xi Li, Bingnan Duan, Jianping Fang, Xiaohong Liu, Linghe Kong, Yulun Zhang},
-	journal = {},
+	journal = {arXiv preprint arXiv:2604.14560},
 	year = {2026}
 }
 ```
