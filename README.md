@@ -101,10 +101,10 @@ If you find the code helpful in your research or work, please cite our work.
 
 ```latex
 @article{chen2026dvface,
-	title = {DVFace: Spatio-Temporal Dual-Prior Diffusion for Video Face Restoration},
-	author = {Zheng Chen, Bowen Chai, Rongjun Gao, Mingtao Nie, Xi Li, Bingnan Duan, Jianping Fang, Xiaohong Liu, Linghe Kong, Yulun Zhang},
-	journal = {arXiv preprint arXiv:2604.14560},
-	year = {2026}
+  title={DVFace: Spatio-Temporal Dual-Prior Diffusion for Video Face Restoration},
+  author={Chen, Zheng and Chai, Bowen and Gao, Rongjun and Nie, Mingtao and Li, Xi and Duan, Bingnan and Fang, Jianping and Liu, Xiaohong and Kong, Linghe and Zhang, Yulun},
+  journal={arXiv preprint arXiv:2604.14560},
+  year={2026}
 }
 ```
 
