@@ -9,7 +9,7 @@
 </div>
 
 
-[[project](https://zhengchen1999.github.io/DVFace)] [[arXiv](https://arxiv.org/abs/2604.14560)] [[supplementary material](https://github.com/zhengchen1999/DVFace/releases/download/v1/Supplementary_Material.pdf)] [dataset] [pretrained models]
+[[project](https://zhengchen1999.github.io/DVFace)] [[arXiv](https://arxiv.org/abs/2604.14560)] [dataset] [pretrained models]
 
 
 
@@ -64,35 +64,6 @@
   <img width="900" src="figs/qualitative_results_2.png">
   <img width="900" src="figs/quantitative_results_2.png">
 </p>
-<details>
-<summary>More Qualitative Results</summary>
-
-- More quantitative comparision with VSR methods in Tab. 1 of the supplementary material
-
-<p align="center">
-  <img width="900" src="figs/vsr_compare.png">
-</p>
-
-- Comparision of parameters and inference time with diffusion-based video restoration methods in Tab. 2 of the supplementary material
-
-<p align="center">
-  <img width="900" src="figs/efficiency.png">
-</p>
-
-- More results in Fig. 2 of the supplementary material(synthetic dataset)
-
-<p align="center">
-  <img width="900" src="figs/synthetic_1.png">
-  <img width="900" src="figs/synthetic_2.png">
-</p>
-
-- More results in Fig. 3 of the supplementary material(real-world dataset)
-
-<p align="center">
-  <img width="900" src="figs/realworld_1.png">
-  <img width="900" src="figs/realworld_2.png">
-</p>
-
 </details>
 
 ## <a name="citation(Wait to be updated)"></a>📎 Citation
